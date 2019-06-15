@@ -3,10 +3,10 @@ self.addEventListener('install', function(event) {
     caches.open('first-app')
       .then(function(cache) {
         cache.addAll([
-          '/mobweb/cba/public/',
-          '/mobweb/cba/public/index.html',
-          '/mobweb/cba/public/src/css/app.css',
-          '/mobweb/cba/public/src/js/app.js'
+          '',
+          '/index.html',
+          '/src/css/app.css',
+          '/src/js/app.js'
         ])
       })
   );
